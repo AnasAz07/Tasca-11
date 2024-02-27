@@ -8,11 +8,10 @@ def llegir_llista():
         else:
             return l
         
-def filtre_inicial(x,a,b):
-    l = list(filter(lambda y: y[0] == a or y[0] == b, x))
+def filtre_inicial(x,a):
+    l = list(filter(lambda y: y[0] == a.lower() or y[0] == a.upper(), x))
     return l
 
 x = llegir_llista()
 a = "m"
-b = "p"
-print(filtre_inicial(x,a,b))
+print(filtre_inicial(x,a))
