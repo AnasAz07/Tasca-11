@@ -6,5 +6,5 @@ def imprimir_fitxer(m):
             a.append(c[0])
     print(a)
 
-fitxer = "/home/cicles/AO/Tasca-11/hola.txt+"
+fitxer = "/home/cicles/AO/Tasca-11/ex-11.txt"
 imprimir_fitxer(fitxer)
