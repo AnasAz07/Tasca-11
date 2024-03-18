@@ -34,7 +34,6 @@ str_a_numero()
 #retorni una llista amb les paraules que comencen per la lletra donada. 
 #Utilitzar filter. Ex: [“maria”, “manta”, “peu”, “mà”] 
 #i li deim que ens retorni totes les que comencen per ‘p’
-'''''
 def Filtre(l,a):
     x = list(filter(lambda x: x[0] == a.lower() or x[0] == a.upper(),l ))
     return x
@@ -43,12 +42,6 @@ def Filtre(l,a):
 l = ['Buena', 'Si', 'Chambales', 'Oscar', 'Boom']
 a = 'b'
 print(Filtre(l,a))
-'''
-#Ex 4: Crear una funció que donades dues llistes, 
-#les concateni amb un connector. Utilitzar zip. 
-#Ex: [‘sub’,’supra’] i [‘campió’ ‘campiona’] i el connector ‘-’, retorni 
-#[‘sub-campió’][‘supra-campiona’].
-
 
 
 
