@@ -12,7 +12,7 @@ def afegir_fitxer(m,llista):
             f.write(e+"\n")
 
 
-fitxer = "/home/cicles/AO/Tasca-11/ex-11.txt"
+fitxer = "/home/cicles/AO/Tasca-11/ex-14.txt"
 llista = ["Federic","Oscar","Hugo","Claudia","Jordi","Anas","Alvaro"]
 afegir_fitxer(fitxer,llista)
 imprimir_fitxer(fitxer)
